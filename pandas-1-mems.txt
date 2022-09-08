@@ -1,0 +1,12 @@
+-> read_csv, used to read csv file.
+-> -ve indexing works in pandas. With -ve, head excludes last n rows, while tail excludes top n rows.
+-> Dataframe can be created manually using pd.DataFrame by row-wise and column-wise operations.
+-> info() gives all the details about the dataframe.
+-> describe() provides the stats about the data. With 'include=all' parameter it includes, string/object fields also.
+-> rename used to rename the columns names as dict in input. "inplace=True" replaces the current DataFrame.
+-> df.drop used to drop a record with an index or column. With index, axis =1 to be specified for columns and for rows axis=0. Another way is to use the parameter columns for dropping columns.
+
+-> pd.Series is similar to np.ndarray, but we can edit the index to new values.
+        Once indices are updated, accessing individual elements is based on the new or explicit index values, however slicing(2 to 5, [2:6]) of Series is based on both implicit, that starts with 0 till the end, & explicit indices.
+-> loc and iloc are created to eliminate the confusion of explicit and implicit indexing. loc works for explicit and iloc works for implicit.
+-> in case of loc, last index is included unlike list, numpy indexing.
