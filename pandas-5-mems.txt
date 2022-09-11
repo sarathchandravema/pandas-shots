@@ -1,0 +1,1 @@
+-> transform - used to transform a dataframe. It can be applied on only 1 column of the data.
