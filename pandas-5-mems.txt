@@ -1,1 +1,9 @@
 -> transform - used to transform a dataframe. It can be applied on only 1 column of the data.
+-> apply - used to transform a dataframe. Advantage over transform is it can be applied to multiple columns.
+
+-> isna - used to find if a value in cell is nan/null value or not. Similar function is isnull.
+-> df.isna().sum() - to identify the number of null values in a column.
+-> df.isna().count() - this will give the count of records in a column, equivalent to rows.
+
+-> df.melt - restructuring of the data. columns to rows.
+-> df.pivot - restructuring the data, rows to columns.
