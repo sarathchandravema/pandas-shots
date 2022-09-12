@@ -1,0 +1,3 @@
+-> set_index(<column name>) - Used to update the existing index with new index from a column.
+-> Opposite of the above method, reset_index. This generates new rangeIndex from 0 to len and the existing index as new column in the dataframe.
+-> df[[rows][columns]] - Used to extract exact rows and columns based on explicit indices.
