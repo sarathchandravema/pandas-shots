@@ -1,3 +1,11 @@
 -> set_index(<column name>) - Used to update the existing index with new index from a column.
 -> Opposite of the above method, reset_index. This generates new rangeIndex from 0 to len and the existing index as new column in the dataframe.
 -> df[[rows][columns]] - Used to extract exact rows and columns based on explicit indices.
+-> Adding a new row to df can be done in 2 ways.
+     -> One way is to use append method with a dictionary and ignore_index param set to True as inputs.
+     -> Other way is to using loc method to access the next element and assign a list.
+
+-> df.duplicated() - Used to identify if any row is duplicate or not. Returns a series of Boolean values.
+-> df.drop_duplicates() method to drop the duplicate rows. 'keep' parameter takes 'first' and 'last' as inputs, which indicate to keep the first row or the last row.
+     -> keep also takes 'False' as parameter that drops all duplicates.
+     -> Can provide a subset of data to check the duplicates.
